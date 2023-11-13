@@ -1,3 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Poppins:wght@500&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.login::after {
+  content: "";
+  position: absolute;
+  bottom: -1.5rem;
+  left: 9rem;
+  width: 14.1875rem;
+  height: 0.5rem;
+  background-color: #79ac78;
+}
+
+.labelInput {
+  color: #868b90;
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input {
+  @apply rounded-lg border border-gray-300 h-[3rem] outline-none p-2;
+}
+
+.containerInput {
+  @apply flex flex-col gap-2;
+}
+
+.textForm {
+  @apply font-light underline cursor-pointer text-[#868B90] text-base mb-4;
+}

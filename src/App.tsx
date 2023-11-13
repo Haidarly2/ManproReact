@@ -1,7 +1,9 @@
+import { Login } from "./routes/login/Login";
+
 function App() {
   return (
     <>
-      <div></div>
+      <Login />
     </>
   );
 }
