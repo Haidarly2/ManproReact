@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      poppins: 'Poppins',
+      alegreya: 'Alegreya'
+    },
     screens: {
       'sm': '640px',
 
