@@ -34,3 +34,7 @@
 .textForm {
   @apply font-light underline cursor-pointer text-[#868B90] text-base mb-4;
 }
+
+.buttonSubmit {
+  transition: 0.2s ease-in-out;
+}
