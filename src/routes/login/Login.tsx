@@ -17,7 +17,7 @@ export const Login: React.FC = () => {
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     console.log(username, password);
-    navigate("/home");
+    navigate("/dashboard");
   };
 
   return (
