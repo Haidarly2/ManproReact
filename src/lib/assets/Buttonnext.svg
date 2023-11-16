@@ -1,0 +1,9 @@
+<svg width="38" height="198" viewBox="0 0 38 198" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Button next">
+<g id="Rectangle 30">
+<path d="M0 0H28C33.5228 0 38 4.47715 38 10V188C38 193.523 33.5228 198 28 198H0V0Z" fill="#E1ECC8"/>
+<path d="M0.5 0.5H28C33.2467 0.5 37.5 4.75329 37.5 10V188C37.5 193.247 33.2467 197.5 28 197.5H0.5V0.5Z" stroke="black" stroke-opacity="0.55"/>
+</g>
+<path id="Polygon 1" d="M34 99L10.75 111.99L10.75 86.0096L34 99Z" fill="#4D4D4D"/>
+</g>
+</svg>

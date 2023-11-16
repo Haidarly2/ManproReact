@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Poppins:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Poppins:wght@500&family=Preahvihear&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -46,4 +45,26 @@
 
 .navbarLi:active {
   filter: brightness(0.9);
+}
+
+.textTimer {
+  color: #000;
+  font-family: Preahvihear;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.toggle__dot {
+  top: 15%;
+  left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.translate-x-full {
+  transform: translateX(100%);
+}
+
+.swiper-button-disabled {
+  opacity: 0.5;
 }

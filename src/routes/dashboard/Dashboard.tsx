@@ -10,7 +10,7 @@ export const Dashboard: React.FC = () => {
   };
 
   return (
-    <div className="w-full h-[100vh] overflow-hidden bg-[#F7FFE5] flex justify-center align-middle">
+    <div className="w-full h-[100vh] overflow-hidden bg-[#F7FFE5] flex justify-center items-center">
       <Navbar section={handleSetActiveNavbar} />
       {activeNavbar === "home" && <Home />}
     </div>
