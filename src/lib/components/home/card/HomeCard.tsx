@@ -43,7 +43,7 @@ export const HomeCard: React.FC<homeCardInterface> = ({
                 <div
                   className="border border-gray-300 bg-[#A0C49D] w-[9rem] p-1"
                   key={bak.idBak}>
-                  <p className="font-preahvihear text-[0.4375rem]">
+                  <p className="font-preahvihear text-sm">
                     id {bak.idBak}
                   </p>
                   <p className="font-preahvihear text-xl text-center">

@@ -137,6 +137,8 @@ export const data = [
     id: 2,
     name: "Selenoid 2",
     status: "Stop",
+    TimerOff: 10,
+    TimerOn: 120,
     rak: [
       {
         idRak: 1,
