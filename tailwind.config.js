@@ -8,7 +8,8 @@ export default {
     extend: {},
     fontFamily: {
       poppins: 'Poppins',
-      alegreya: 'Alegreya'
+      alegreya: 'Alegreya',
+      preahvihear: 'Preahvihear',
     },
     screens: {
       'sm': '640px',
