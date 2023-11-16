@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 export const Home: React.FC = () => {
   return (
     <>
-      <button className="button-prev ml-[5%]">
+      <button className="button-prev ml-[5%] -mt-[4%] laptop2:-mt-[5%] laptop1:-mt-[3%]">
         <img src={prev} alt="next" />
       </button>
       <Swiper
@@ -23,7 +23,7 @@ export const Home: React.FC = () => {
         }}
         slidesPerView={1}
         modules={[Navigation]}
-        className="w-[80%] h-fit mt-[10%] laptop2:mt-[5%]">
+        className="w-[80%] h-fit -mt-[5%] laptop1:-mt-[5%] laptop2:-mt-[10%]">
         <div className="flex">
           {data.map((item) => (
             <SwiperSlide key={item.id}>
@@ -39,7 +39,7 @@ export const Home: React.FC = () => {
           ))}
         </div>
       </Swiper>
-      <button className="button-next mr-[5%]">
+      <button className="button-next mr-[5%] -mt-[4%] laptop2:-mt-[5%] laptop1:-mt-[3%]">
         <img src={next} alt="next" />
       </button>
     </>

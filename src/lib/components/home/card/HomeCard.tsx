@@ -13,8 +13,8 @@ export const HomeCard: React.FC<homeCardInterface> = ({
   rak,
 }) => {
   return (
-    <section className="flex flex-col w-full h-full justify-start border border-gray-400 bg-green-200 gap-16 p-10">
-      <div className="flex justify-around gap-[40%]" key={id}>
+    <section className="flex flex-col w-full h-full justify-start border border-gray-400 bg-green-200 gap-16 p-10 laptop2:p-8">
+      <div className="flex justify-around gap-[40%] laptop3:gap-[30%]" key={id}>
         <div className="flex flex-col">
           <h1 className="font-preahvihear text-[2.25rem]">{name}</h1>
           <p className="font-preahvihear text-[1rem]">ID{id}</p>
