@@ -3,7 +3,7 @@ import React from "react";
 export const ToggleSwitch: React.FC = () => {
   const [isChecked, setIsChecked] = React.useState(false);
 
-  const toggleCheck = () => {
+  const toggleCheck = (): void => {
     setIsChecked(!isChecked);
   };
 
