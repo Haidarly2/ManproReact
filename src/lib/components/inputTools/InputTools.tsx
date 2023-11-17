@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { navbarInterface } from "../../type";
 
 export const InputTools: React.FC<navbarInterface> = ({ section }) => {
@@ -7,7 +6,6 @@ export const InputTools: React.FC<navbarInterface> = ({ section }) => {
   const [idAlat, setIdAlat] = useState(0);
   const [timerOn, setTimerOn] = useState(0);
   const [timerOff, setTimerOff] = useState(0);
-  const navigate = useNavigate();
 
   const handleAlatChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setAlat(event.target.value);
@@ -28,7 +26,6 @@ export const InputTools: React.FC<navbarInterface> = ({ section }) => {
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     console.log(alat, idAlat, timerOn, timerOff);
-    navigate("/dashboard");
   };
 
   return (
