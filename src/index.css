@@ -68,3 +68,39 @@
 .swiper-button-disabled {
   opacity: 0.5;
 }
+
+.input-container {
+  @apply flex flex-col outline-none font-preahvihear text-lg gap-4;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.input {
+  @apply border border-black border-opacity-25 bg-[#F7FFE5] h-[1.8125rem];
+}
+
+.radio-container {
+  @apply flex gap-4;
+}
+
+.input-radio {
+  @apply flex gap-4;
+}
+
+input[type="radio"] {
+  width: 1rem;
+}
+
+input[type="radio"] {
+  accent-color: black;
+}
